@@ -1,0 +1,13 @@
+{
+  "name": "bedjs-cli",
+  "version": "1.0.0-beta",
+  "description": "Client tool for bedJS",
+  "main": "cli.js",
+  "bin": { "bedjs": "cli.js" },
+  "repository": { "type": "git", "url": "https://github.com/jmjuanes/bedjs-cli.git" },
+  "keywords": [ "cli", "bedjs", "bioinformatics", "bed", "genomic", "genome" ],
+  "author": "Josemi Juanes <josemijuanes@gmail.com>",
+  "homepage": "https://github.com/jmjuanes/bedjs-cli",
+  "license": "MIT",
+  "dependencies": { "bedjs": "1.1.0", "get-args": "1.0.0", "stattic-pstat": "0.1.0" }
+}
